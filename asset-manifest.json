@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c8e9a22.css",
-    "main.js": "/static/js/main.36001089.js",
-    "static/js/453.e7e9f32a.chunk.js": "/static/js/453.e7e9f32a.chunk.js",
-    "static/media/CatDogBG.jpg": "/static/media/CatDogBG.7e479d9c5d856f5afdc2.jpg",
-    "static/media/qrcode.jpeg": "/static/media/qrcode.f42c8d14cb70806f3918.jpeg",
-    "index.html": "/index.html",
-    "main.8c8e9a22.css.map": "/static/css/main.8c8e9a22.css.map",
-    "main.36001089.js.map": "/static/js/main.36001089.js.map",
-    "453.e7e9f32a.chunk.js.map": "/static/js/453.e7e9f32a.chunk.js.map"
+    "main.css": "/my-react-app/static/css/main.a023c6d3.css",
+    "main.js": "/my-react-app/static/js/main.c2400cdc.js",
+    "static/js/453.e7e9f32a.chunk.js": "/my-react-app/static/js/453.e7e9f32a.chunk.js",
+    "static/media/CatDogBG.jpg": "/my-react-app/static/media/CatDogBG.7e479d9c5d856f5afdc2.jpg",
+    "static/media/qrcode.jpeg": "/my-react-app/static/media/qrcode.f42c8d14cb70806f3918.jpeg",
+    "index.html": "/my-react-app/index.html",
+    "main.a023c6d3.css.map": "/my-react-app/static/css/main.a023c6d3.css.map",
+    "main.c2400cdc.js.map": "/my-react-app/static/js/main.c2400cdc.js.map",
+    "453.e7e9f32a.chunk.js.map": "/my-react-app/static/js/453.e7e9f32a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8e9a22.css",
-    "static/js/main.36001089.js"
+    "static/css/main.a023c6d3.css",
+    "static/js/main.c2400cdc.js"
   ]
 }
