@@ -1,0 +1,62 @@
+/* Register.css */
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+}
+
+input {
+    flex: 2;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.register .submitButton {
+    padding: 10px 20px;
+    background-color: #b3bfee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #8ba3ff;
+}
+
+.form-group:last-of-type {
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 768px) {
+    
+}

@@ -1,0 +1,69 @@
+/* LogIn.css */
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 50 auto;
+}
+
+.container {
+    padding-top: 100px;
+}
+
+
+.loginform-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+}
+
+input {
+    flex: 2;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.login .submitButton {
+    padding: 10px 20px;
+    background-color: #b3bfee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #9ba1b8;
+}
+
+.loginform-group:last-of-type {
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 300px;
+    }
+}

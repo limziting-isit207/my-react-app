@@ -1,0 +1,31 @@
+/* Cats.css */
+
+.cats-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cat-image-container {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .cat-image {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .cat-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .cat-info p {
+    color: black;
+  }
+
+  .cats-page h1 {
+    margin-top: 50px;
+  }

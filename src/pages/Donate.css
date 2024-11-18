@@ -1,0 +1,98 @@
+/* Donate.css */
+.donate-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.donate-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.donate-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.donate-container .qr-code {
+    width: 200px;
+    height: 200px;
+    background-image: url('/public/images/qrcode.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.donation-form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+}
+
+.donate-button {
+    background-color: rgb(204, 231, 255);
+    color: black;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.donate-button:hover {
+    background-color: #bbdcff;
+}
+
+@media (max-width: 768px) {
+    .donate-container {
+        padding: 15px;
+        margin-top: 100px;
+    }
+
+    .donate-container h2 {
+        font-size: 1.8rem;
+    }
+
+    .donate-container p {
+        font-size: 1rem;
+    }
+
+    .donate-container .qr-code {
+        width: 150px;
+        height: 150px;
+    }
+}

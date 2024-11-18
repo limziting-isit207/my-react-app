@@ -1,0 +1,81 @@
+.about-us-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about-us-section {
+    margin-bottom: 40px;
+}
+
+h1, h3 {
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.team-introduction,
+.volunter-introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.team-member,
+.volunter-member {
+    text-align: center;
+}
+
+.team-member img,
+.volunter-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-info,
+.statistics-section,
+.faq-section,
+.faq-question {
+    text-align: center;
+}
+
+.statistics-section,
+.faq-section {
+    margin-top: 50px;
+}
+
+.mission-section p,
+.impact-section p,
+.team-section p,
+.statistics-section p {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+}

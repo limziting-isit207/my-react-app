@@ -1,0 +1,42 @@
+/* PetCare.css */
+.pet-care {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pet-care h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pet-care p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 800px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
